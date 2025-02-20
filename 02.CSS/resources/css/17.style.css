@@ -1,0 +1,60 @@
+header {text-align: center;}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu-item {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    background-repeat: no-repeat center;
+    background-size: cover;
+}
+
+#menu1 {
+    background-image: url(../css/img/블루베리1.jpg);
+}
+
+#menu2 {
+    background-image: url(../css/img/블루베리2.jpg);
+}
+
+#menu3 {
+    background-image: url(../css/img/블루베리3.jpg);
+}
+
+#menu4 {
+    background-image: url(../css/img/블루베리4.jpg);
+}
+
+#menu5 {
+    background-image: url(../css/img/블루베리5.jpg);
+}
+
+#menu6 {
+    background-image: url(../css/img/블루베리6.jpg);
+}
+
+#menu7 {
+    background-image: url(../css/img/블루베리7.jpg);
+}
+
+#menu8 {
+    background-image: url(../css/img/블루베리8.jpg);
+}
+
+#menu9 {
+    background-image: url(../css/img/블루베리9.jpg);
+}
+
+#menu10 {
+    background-image: url(../css/img/블루베리10.jpg);
+}
+
+h2 {
+    color:aliceblue;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 1px 1px lightskyblue;
+}

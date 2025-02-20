@@ -1,0 +1,32 @@
+/* body */
+body {
+    width: 1000px;
+}
+
+/* header */
+header {
+    height: 40px;
+    line-height: 40px;
+}
+
+/* section (본문) */
+section {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+/* aside */
+aside {
+    float: left;
+    width: 100px;
+    height: 60px;
+    background-color: ghostwhite;
+}
+
+/* footer */
+footer {
+    clear: both;
+    height: 30px;
+}

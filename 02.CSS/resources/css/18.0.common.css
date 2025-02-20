@@ -1,0 +1,18 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: lightpink;
+    text-align: center;
+}
+
+header>h1 {
+    color: palevioletred;
+}
+
+footer {
+    background-color: lightpink;
+    color: palevioletred;
+    text-align: center;
+}
