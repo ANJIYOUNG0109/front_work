@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>정규식표현문제</title>
+  <style>
+    h1 {text-align: center;}
+
+    .mamber {
+      border: 1px solid;
+      padding-left: 50px;
+      padding-top: 10px;
+      padding-right: 50px;
+    }
+
+    .button {
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>회원가입</h1>
+
+  <form action="login.jsp"></form>
+    <table>
+      <tr>
+        <td>* 아이디 : </td>
+        <td><input name="userId" required></td>
+      </tr>
+    </table>
+
+
+
+
+
+
+
+
+  <div id="member" class="mamber">
+    * 아이디 : <input type="text"><br>
+    &emsp;첫 글자는 반드시 영문자하고 영문자, 숫자 포함 총 4~12자로 입력하시오.<br><br>
+
+    * 비밀번호 : <input type="password"><br>
+    &emsp;영문자, 숫자, 특수문자로 총 8~15자로 입력하시오.<br><br>
+
+    * 비밀번호 확인 : <input type="password"><br>
+    &emsp;위의 비밀번호와 일치하게 입력하시오.<br><br>
+
+    * 이름 : <input type="name"><br>
+    &emsp;한글로만 이루어져 있어야 되며 2글자 이상으로 입력하시오.<br><br>
+
+    * 비밀번호 : <input type="email"><br>
+    &emsp;이메일 형식에 맞춰 입력하시오.<br><br>
+
+    * 취미 : <input type="text"><br><br>
+
+    <!-- <form action="test.do"> -->
+    * 거주지 : 
+      <select name="national">
+          <option value="se">서울</option>
+          <option value="gg">경기</option>
+          <option value="dj">대전</option>
+      </select>
+      <br><br>
+
+      <hr>
+
+
+      <div class="button">
+      <input type="submit" value="회원가입">
+      <input type="submit" value="취소">
+      </div>
+      <br><br><br>
+
+    <script>
+
+    </script>
+  </div>
+
+</body>
+</html>
