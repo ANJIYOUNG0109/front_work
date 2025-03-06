@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="resources/js/jquery-3.7.1.min.js"></script>
+  <title>ani_hide_show</title>
+</head>
+<body>
+  <h1>시각적인 효과(Effect 메소드)</h1>
+  <p> 페이지 내에 애니메이션 효과를 주기 위해 사용하는 메소드 집합</p>
+
+  <h3>* show(), hide(), toggle()</h3>
+  <p>선택된 요소가 점점 커지며 불투명해 지면서 보여지고,
+      점점 작아지며 투명하게 사라지게 하는 메소드</p>
+
+  <button id="hide">숨기기</button>&emsp;
+  <button id="show">보여주기</button>&emsp;
+  <button id="toggle">토글</button>&emsp;
+
+  <br><br>
+
+  <img src="resources/img/블루베리1.jpg" id="img1">
+
+  <div id="content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolorum, necessitatibus voluptatem quam molestias corrupti ducimus commodi, praesentium dolores dignissimos culpa, molestiae distinctio facilis reprehenderit harum ut maxime. Quia, ipsum?
+    Ipsum tenetur sit sequi quaerat! Rem totam quisquam iure reprehenderit repudiandae alias ut libero nostrum, reiciendis suscipit quaerat accusantium quod eligendi voluptatibus inventore dolores placeat sed neque vel necessitatibus eaque?
+  </div>
+
+  <script>
+    $(() => {
+      $('#hide').click(function() {
+        $('#img1').hide(2000);
+        $('#content').hide(3000);
+      })
+
+      $('#show').click(function() {
+        $('#img1').show(2000);
+        $('#content').show(3000);
+      })
+
+      $('#toggle').click(function() {
+        $('#img1').toggle(500);
+      })
+    })
+  </script>
+</body>
+</html>
